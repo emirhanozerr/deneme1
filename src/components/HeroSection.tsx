@@ -11,12 +11,12 @@ if (typeof window !== "undefined") {
 }
 
 const destinations = [
-  { id: 'morocco', name: 'Morocco', ghostText: 'Morocco', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/d021f16a-8d45-434b-5e40-0e1fb5b74b00/public' },
-  { id: 'tunisia', name: 'Tunisia', ghostText: 'Tunisia', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/3db16821-8274-422d-c4fc-f2854022ca00/public' },
-  { id: 'algeria', name: 'Algeria', ghostText: 'Algeria', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/f3e59801-d8f5-46f8-4890-361d0c370a00/public' },
   { id: 'egypt', name: 'Egypt', ghostText: 'Egypt', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/c34fba9c-e290-42d8-001f-4c097af0ee00/public' },
   { id: 'switzerland', name: 'Switzerland', ghostText: 'Swiss', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/d73b8bfa-b159-4eb4-d34d-8cd6e1791500/public' },
-  { id: 'europe', name: 'Europe', ghostText: 'Europe', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/1afb262b-9d95-4bed-12b5-31d83a54d700/public' }
+  { id: 'europe', name: 'Europe', ghostText: 'Europe', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/1afb262b-9d95-4bed-12b5-31d83a54d700/public' },
+  { id: 'morocco', name: 'Morocco', ghostText: 'Morocco', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/d021f16a-8d45-434b-5e40-0e1fb5b74b00/public' },
+  { id: 'tunisia', name: 'Tunisia', ghostText: 'Tunisia', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/3db16821-8274-422d-c4fc-f2854022ca00/public' },
+  { id: 'algeria', name: 'Algeria', ghostText: 'Algeria', img: 'https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/f3e59801-d8f5-46f8-4890-361d0c370a00/public' }
 ];
 
 export default function HeroSection() {
