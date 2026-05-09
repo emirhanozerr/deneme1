@@ -18,6 +18,9 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Seyyah Travel",
   description: "The Seyyah Travel Roadmap - Prestige Collection",
+  icons: {
+    icon: "https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/767458e5-267e-4998-890c-1de5a6a75c00/public",
+  },
 };
 
 export default function RootLayout({

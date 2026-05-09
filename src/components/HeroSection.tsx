@@ -107,20 +107,27 @@ export default function HeroSection() {
         </h1>
       </div>
 
-      {/* Top Navigation - Glassmorphism */}
-      <nav className="relative z-20 flex justify-between items-start md:items-center px-6 md:px-12 py-6 md:py-8 w-full backdrop-blur-sm bg-brand-anthracite/10">
+      {/* Top Navigation */}
+      <nav className="relative z-20 flex justify-between items-start md:items-center px-6 md:px-12 py-6 md:py-8 w-full bg-transparent">
         {/* Logo Left */}
-        <div className="flex flex-col items-center cursor-pointer group mt-2 md:mt-0">
-          <div className="w-8 h-8 md:w-10 md:h-10 border border-brand-turquoise rotate-45 mb-3 md:mb-4 group-hover:bg-brand-turquoise/10 transition-colors" />
-          <span className="hidden md:block font-serif text-[10px] md:text-xs tracking-[0.3em] text-white">SEYYAH TRAVEL</span>
-          <span className="hidden md:block font-sans text-[7px] md:text-[8px] tracking-[0.4em] text-brand-turquoise/80 mt-1">& ORGANISATION</span>
+        <div className="flex flex-col items-center cursor-pointer mt-2 md:mt-0">
+          <Image 
+            src="https://imagedelivery.net/EDcvEUy2F2CJpIzjIkCF7Q/767458e5-267e-4998-890c-1de5a6a75c00/public"
+            alt="Seyyah Travel Logo"
+            width={120}
+            height={60}
+            className="w-24 md:w-32 h-auto object-contain"
+            unoptimized={true}
+            referrerPolicy="no-referrer"
+          />
         </div>
 
         {/* Center Minimalist Menu (Desktop) */}
         <div className="hidden md:flex gap-10 font-sans text-[10px] tracking-[0.25em] font-medium text-white/90">
           <a href="#destinations" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">DESTINATIONS</a>
-          <a href="#philosophy" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">OUR PHILOSOPHY</a>
-          <a href="#quote" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">REQUEST QUOTE</a>
+          <a href="/gallery" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">GALLERY</a>
+          <a href="/tours" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">TOURS</a>
+          <a href="/stories" className="hover:text-brand-turquoise transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-brand-turquoise hover:after:w-full after:transition-all">STORIES</a>
         </div>
 
         {/* Right Localized Navigation (Desktop) */}
