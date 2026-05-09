@@ -60,9 +60,9 @@ export default function HeroSection() {
   }, [activeIndex]); 
 
   return (
-    <section ref={containerRef} className={`${styles.heroContainer} flex flex-col justify-between`}>
+    <section ref={containerRef} className={`${styles.heroContainer} isolate flex flex-col justify-between`}>
       {/* Background Image / Overlay - Crossfade Container */}
-      <div className="absolute inset-0 z-[-2] overflow-hidden bg-brand-anthracite">
+      <div className="absolute inset-0 z-0 overflow-hidden bg-brand-anthracite">
         {destinations.map((dest, idx) => (
           <div 
             key={dest.id}
